@@ -29,9 +29,9 @@ namespace W2___Hansel_Solana_Winarko___0706022110034
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (TextBoxInputData.Text.Substring(0, 4) == "ISI:")
+            if (txtbox.Text.Substring(0, 4) == "ISI:")
             {
-                LabelHasil.Text = TextBoxInputData.Text.Substring(4);
+                btn_proses.Text = txtbox.Text.Substring(4);
             }
         }
     }
